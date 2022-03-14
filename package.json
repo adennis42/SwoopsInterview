@@ -3,12 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "@mui/icons-material": "^5.5.0",
+    "@mui/lab": "^5.0.0-alpha.72",
+    "@mui/material": "^5.5.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "prop-types": "^15.8.1",
+    "pure-react-carousel": "^1.28.1",
     "react": "^17.0.2",
+    "react-datepicker": "^4.7.0",
+    "react-datetime": "^3.1.1",
     "react-dom": "^17.0.2",
+    "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.0",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
   }
 }

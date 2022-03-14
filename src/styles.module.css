@@ -1,0 +1,37 @@
+/* globals */
+body {
+    background: #c8d6e5;
+}
+
+h1 {
+    color: #bdc3c7;
+}
+
+/* classes */
+.centeredContainer {
+    margin: auto;
+    width: 50%;
+}
+
+.newsCardContainer {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+       
+}
+
+.inputAreaContainer {
+    margin: auto;
+    padding: 15px;
+    display: flex;
+}
+
+.datePickerContainer {
+    margin-left: 20px;
+}
+
+.buttonContainer {
+    margin-left: 15px;
+}
+
+/* ids */
